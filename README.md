@@ -44,8 +44,13 @@ You should see:
 
     minikube
 
-TODO: insert some commands to set the context 
+If you are not currently in that context you can switch to it using:
 
+    $ kubectl config use-context minikube
+
+You can get a list of all your available contexts using:
+
+    $ kubectl config get-contexts
 
 ## Tekton
 
